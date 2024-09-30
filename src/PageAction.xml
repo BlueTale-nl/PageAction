@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="bluetale.pageaction.PageAction" pluginWidget="true" needsEntityContext="false" offlineCapable="true" supportedPlatform="Web"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Page Action</name>
+    <description>Triggers an action on page load.</description>
+    <icon />
+    <properties>
+        <propertyGroup caption="Events">
+            <property key="onLoad" type="action" required="true">
+                <caption>On load</caption>
+                <description>Executes when the widget is loaded.</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
